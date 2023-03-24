@@ -22,4 +22,10 @@ do this yourself, im lazy
 
 ## add environment variables
 
-Env vars are: - BUCKET: s3 bucket that contains these files - NEW_DATA_FILE: name of the xlsx that is auto generated - TEMPLATE_FILE: template to add the new data too - DESTINATION_FILE: destination filename, will be created in the bucket - NEW_DATA_WORKSHEET_NAME: worksheet name (at the bottom of the xlsx) for the new incoming data - TEMPLATED_WORKSHEET_NAME: worksheet name for the sheet to be updated with new data
+Env vars are: 
+  - BUCKET: s3 bucket that contains these files
+  - NEW_DATA_FILE: name of the xlsx that is auto generated
+  - TEMPLATE_FILE: template to add the new data too
+  - DESTINATION_FILE: destination filename, will be created in the bucket
+  - NEW_DATA_WORKSHEET_NAME: worksheet name (at the bottom of the xlsx) for the new incoming data
+  - TEMPLATED_WORKSHEET_NAME: worksheet name for the sheet to be updated with new data
