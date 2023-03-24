@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "csv-play"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "csv_play"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.26.98"
+boto3-stubs = {extras = ["essential"], version = "^1.26.98"}
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
